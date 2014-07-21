@@ -2,31 +2,27 @@ $section-padding: 30px 0px;
 $max-width: max-width;
 $yellow: #ecd06f;
 
-.topwrapper {
+#topwrapper {
   padding: 20px 0;
 
-  .login h6{
-  color: $yellow;
-  }
-
-  .sign-up h6{
-  color: $alert-color;
- }
+  .login h6 {
+    color: $yellow;
+    font-weight: normal;
     
+    .sign-up h6 {
+      color: $alert-color;
+    }
+  }
 }
 
-
-.logo {
-  padding: 10px 0;
-}
 
 .secondary-nav {
   margin-top: 5px 0;
   float:right;
 
-    h6 {
+  h6 {
     color: #fff;
-    }
+  }
 }
 
 .secondary-nav .inline-list {
@@ -36,21 +32,18 @@ $yellow: #ecd06f;
 
 .sub-nav {
   background-color: $primary-color;
- 
+  
   dd {vertical-align: middle;
- padding-top: 10px;
-
-  }
+   padding-top: 10px;
 
  }
 
-
- 
+}
 
 .sub-nav dd a {
-  color: #fff !important;
-  font-size: 14px;
-  font-family: "Museo Sans", Helvetica, Sans Serif;
+ color: #fff !important;
+ font-size: 14px;
+ font-family: "Museo Sans", Helvetica, Sans Serif;
 }
 
 .sub-nav dl {
@@ -73,7 +66,7 @@ $yellow: #ecd06f;
   padding: 20px 0;
   text-alignment: center;
   width: 100%;
-  }
+}
 
 .hero {
   position: relative;
@@ -89,13 +82,13 @@ $yellow: #ecd06f;
     position: absolute;
 
     h1 {
-    font-weight: bold;
-    padding: 5px 0;
-    text-align: center;
+      font-weight: bold;
+      padding: 5px 0;
+      text-align: center;
     }
 
     h5 {
-    text-align: center;
+      text-align: center;
     }
 
     
@@ -105,7 +98,7 @@ $yellow: #ecd06f;
 
     .button.tiny {
       background-color: #ecd06f;
-      position: relative;
+      position: absolute;
       margin-top:10px;
     }
   }
@@ -113,21 +106,34 @@ $yellow: #ecd06f;
 
 #popular {
   padding: 30px 0;
+  position: absolute;
+  top: 650px;
+}
 
-  h3 {
-  
-  }
-
-
+.campaign-listing {
+  position: absolute;
+  top: 700px;
 }
 
 .search-bar {
   clear: both;
   position: absolute;
+  top: 400px;
+  left: 30%;
 }
 
-#stats {
+#stats-bar {
+  position: absolute;
   background-color: $primary-color;
   margin: 0 0;
   padding: 30px 0;
+  //margin: 20px 0;
+  top: 500px;
+
+  li {
+    list-style-type: none;
+    color: #fff;
+    text-align: center;
+  }
 }
+

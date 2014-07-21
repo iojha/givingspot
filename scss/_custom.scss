@@ -1,0 +1,138 @@
+$yellow: #ecd06f;
+
+
+.hero {
+  position: relative;
+  background-image: url('../img/fund8.jpg');
+  background-color: (150,150,150,.05); ;
+  background-size: cover;
+  height: auto;
+}
+
+
+#nav {
+  padding-top: 2%;
+  padding-bottom: 4%;  
+  vertical-align: middle;
+ 
+  p a {
+    font-size: .8rem;
+    color: #fff;
+  }
+
+
+.menu  {
+  float:right;
+  vertical-align: middle;
+}
+
+  .button-signup {
+    @extend .button;
+    background-color: $alert-color;
+
+      p {
+        font-size: .8rem;
+      } 
+  }
+}
+
+
+  button a:hover a:active {
+    background-color: rgba (150,150,150,.05);
+}
+
+
+//CTA 
+
+.cta {
+  padding: 4% 0;
+  text-align: center;
+
+  h1 {
+    color: #fff;
+    font-size: 4rem;
+  }
+
+  h5 {
+    color: #fff; 
+  }
+
+  #cta-subheading h4 {
+    padding-top: 10%;
+  }
+}
+
+.button-main {
+  @extend .button;
+  margin-top: 4%;
+  margin-bottom: 80%;
+  background-color: $primary-color;
+}
+
+.search-bar {
+  margin: 4% 0;
+  padding: 2%;
+  }
+
+#search-background {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom:0;
+  width: 100%;
+}
+
+.button-search {
+  @extend .button;
+  background-color: $yellow;
+}
+
+
+//About
+
+#about {
+  background-color: #fff;
+  margin: 5% 0;
+  padding: 2% 4%;
+  text-align: center;
+}
+
+.about-title {
+  padding-bottom: 3%;
+}
+
+    
+//Campaigns
+
+#campaigns {
+  padding: 2% 0;
+  background-color: #dce0e0;
+}
+
+#campaign-listing-title { 
+  padding: 1% 0;
+  text-align: center;
+}
+
+#campaign-listing {
+  background-color: #dce0e0;
+  padding: 3% 0;
+}
+
+#more-campaign-button {
+  @extend .button;
+  background-color: $primary-color;
+
+}
+
+
+//footer
+
+footer {
+  background-color: $secondary-color;
+  color: #fff;
+
+    .footer-menu {
+      padding: 5% 4%;
+
+  }
+}

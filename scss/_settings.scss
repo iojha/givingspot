@@ -154,7 +154,7 @@ $header-font-family: "Museo Sans", Helvetica, Arial, Sans Serif;
 $header-font-weight: semi-bold;
 $header-font-style: normal;
 $header-font-color: darken($secondary-color, 20%);
-$header-line-height: 1.4;
+$header-line-height: 1;
 $header-top-margin: .2rem;
 $header-bottom-margin: .5rem;
 $header-text-rendering: optimizeLegibility;
@@ -197,6 +197,9 @@ $header-text-rendering: optimizeLegibility;
 // $paragraph-aside-line-height: 1.35;
 // $paragraph-aside-font-style: italic;
 // $paragraph-text-rendering: optimizeLegibility;
+
+$paragraph-font-family: "Museo Sans", Helvetica, Arial, Sans serif;
+
 
 // We use these to style <code> tags
 // $code-color: scale-color($alert-color, $lightness: -27%);
@@ -393,11 +396,13 @@ $list-side-margin-no-bullet: 0;
 // $button-font-align: center;
 
 $button-font-family: "Museo Sans thin", Helvetica, Sans Serif;
-$button-font-color: $primary-color;
+$button-font-color: #fff;
 $button-font-weight: thin;
 
 // We use these to control various hover effects.
 // $button-function-factor: -20%;
+
+$button-function-factor: -50%;
 
 // We use these to control button border styles.
 // $button-border-width: 0px;
@@ -405,16 +410,17 @@ $button-font-weight: thin;
 // $button-bg: $primary-color;
 // $button-border-color: scale-color($bg, $lightness: $button-function-factor);
 
-$button-border-width: 1px;
+$button-border-width: 0px;
 $button-border-style: solid;
-$button-bg: $body-bg;
-$button-border-color: #333;
+$button-bg: rgba(150,150,150,.5);
+$button-border-color:#fff;
 
 // We use this to set the default radius used throughout the core.
 // $button-radius: $global-radius;
 // $button-round: $global-rounded;
 
-$button-radius: 6px;
+$button-radius: 10px;
+$button-round: $global-rounded;
 
 // We use this to set default opacity for disabled buttons.
 // $button-disabled-opacity: 0.7;
@@ -638,6 +644,8 @@ $button-group-border-width: .05px;
 
 // We use this to control the list items
 // $inline-list-display: block;
+
+$inline-list-display: inline-block;
 
 // We use this to control any elments within list items
 // $inline-list-children-display: block;
