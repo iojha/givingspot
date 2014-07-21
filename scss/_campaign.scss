@@ -1,8 +1,32 @@
-#nav {
+#nav-campaign {
   background-color: $primary-color;
   position: relative;
   top:0;
   width: 100%;
+  padding-top: 2%;
+  padding-bottom: 4%;  
+  vertical-align: middle;
+ 
+  p a {
+    font-size: .8rem;
+    color: #fff;
+  }
+
+
+.menu  {
+  float:right;
+  vertical-align: middle;
+}
+
+  .button-signup {
+    @extend .button;
+    background-color: $alert-color;
+
+      p {
+        font-size: .8rem;
+      } 
+  }
+
 }
 
 #campaign-profile {
