@@ -8179,9 +8179,69 @@ button a:hover a:active {
 /* line 130, ../scss/_custom.scss */
 footer {
   background-color: #539f97;
-  color: #fff;
 }
 /* line 134, ../scss/_custom.scss */
 footer .footer-menu {
   padding: 5% 4%;
+}
+/* line 138, ../scss/_custom.scss */
+footer p {
+  color: #fff;
+  font-size: .90rem;
+  line-height: .5;
+}
+/* line 144, ../scss/_custom.scss */
+footer h6 {
+  color: #fff;
+  line-height: 2;
+}
+/* line 149, ../scss/_custom.scss */
+footer i {
+  color: #fff;
+}
+/* line 153, ../scss/_custom.scss */
+footer .copyright {
+  color: #fff;
+  font-size: .80rem;
+  padding: 5% 4%;
+  text-align: center;
+}
+
+/* line 1, ../scss/_campaign.scss */
+#nav {
+  background-color: #1a99aa;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+
+/* line 8, ../scss/_campaign.scss */
+#campaign-profile {
+  padding: 2% 0;
+}
+
+/* line 12, ../scss/_campaign.scss */
+.name {
+  padding: 2% 0;
+}
+
+/* line 16, ../scss/_campaign.scss */
+.contact li {
+  padding: 2% 0;
+}
+
+/* line 20, ../scss/_campaign.scss */
+.mission {
+  padding: 2% 0;
+}
+
+/* line 24, ../scss/_campaign.scss */
+.mission h4 {
+  color: #1a99aa;
+}
+
+/* line 28, ../scss/_campaign.scss */
+#about-org {
+  padding: 2% 0;
+  background-color: #dce0e0;
 }

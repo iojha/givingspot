@@ -129,10 +129,32 @@ $yellow: #ecd06f;
 
 footer {
   background-color: $secondary-color;
-  color: #fff;
+
 
     .footer-menu {
       padding: 5% 4%;
+    }
 
-  }
+    p {
+      color: #fff;
+      font-size: .90rem;
+      line-height: .5;
+    }
+
+    h6 {
+      color: #fff;
+      line-height: 2;
+    }
+
+    i {
+      color: #fff;
+    }
+
+    .copyright {
+      color: #fff;
+      font-size: .80rem;
+      padding: 5% 4%;
+      text-align: center;
+    }    
 }
+
