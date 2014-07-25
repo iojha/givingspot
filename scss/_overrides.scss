@@ -1,0 +1,139 @@
+$section-padding: 30px 0px;
+$max-width: max-width;
+$yellow: #ecd06f;
+
+#topwrapper {
+  padding: 20px 0;
+
+  .login h6 {
+    color: $yellow;
+    font-weight: normal;
+    
+    .sign-up h6 {
+      color: $alert-color;
+    }
+  }
+}
+
+
+.secondary-nav {
+  margin-top: 5px 0;
+  float:right;
+
+  h6 {
+    color: #fff;
+  }
+}
+
+.secondary-nav .inline-list {
+  margin-bottom: 0;
+}
+
+
+.sub-nav {
+  background-color: $primary-color;
+  
+  dd {vertical-align: middle;
+   padding-top: 10px;
+
+ }
+
+}
+
+.sub-nav dd a {
+ color: #fff !important;
+ font-size: 14px;
+ font-family: "Museo Sans", Helvetica, Sans Serif;
+}
+
+.sub-nav dl {
+  margin: none !important;
+}
+
+.search {
+  display: inline-block;
+}
+
+.sub-nav {
+  vertical-align: middle;
+}
+
+.stats {
+  background-color:$primary-color;
+  background-position: cover;
+  color: #fff !important;
+  list-style-type: none;
+  padding: 20px 0;
+  text-alignment: center;
+  width: 100%;
+}
+
+.hero {
+  position: relative;
+  background-image: url('../img/fund7.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-width: 100%;
+  height: 500px;
+  margin-bottom: 0px;
+
+  .cta {
+    margin: 100px 0;
+    position: absolute;
+
+    h1 {
+      font-weight: bold;
+      padding: 5px 0;
+      text-align: center;
+    }
+
+    h5 {
+      text-align: center;
+    }
+
+    
+    h1, h5 {
+      color: #fff;
+    }
+
+    .button.tiny {
+      background-color: #ecd06f;
+      position: absolute;
+      margin-top:10px;
+    }
+  }
+}
+
+#popular {
+  padding: 30px 0;
+  position: absolute;
+  top: 650px;
+}
+
+.campaign-listing {
+  position: absolute;
+  top: 700px;
+}
+
+.search-bar {
+  clear: both;
+  position: absolute;
+  top: 400px;
+  left: 30%;
+}
+
+#stats-bar {
+  position: absolute;
+  background-color: $primary-color;
+  margin: 0 0;
+  padding: 30px 0;
+  //margin: 20px 0;
+  top: 500px;
+
+  li {
+    list-style-type: none;
+    color: #fff;
+    text-align: center;
+  }
+}
+

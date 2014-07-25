@@ -1,0 +1,169 @@
+$yellow: #ecd06f;
+
+
+.hero {
+  position: relative;
+  background-image: url('../img/fund8.jpg');
+  background-color: (150,150,150,.05); ;
+  background-size: cover;
+}
+
+
+#nav {
+  padding-top: 20px;
+  padding-bottom: 30px;  
+  vertical-align: middle;
+ 
+  p a {
+    font-size: .8rem;
+    color: #fff;
+  }
+
+
+.menu  {
+  float:right;
+  vertical-align: middle;
+}
+
+  .button-signup {
+    @extend .button;
+    background-color: $alert-color;
+
+      p {
+        font-size: .8rem;
+      } 
+  }
+}
+
+
+  button a:hover a:active {
+    background-color: rgba (150,150,150,.05);
+}
+
+
+//CTA 
+
+.cta {
+  padding: 30px 0;
+  text-align: center;
+
+  h1 {
+    color: #fff;
+    font-size: 4rem;
+  }
+
+  h5 {
+    color: #fff; 
+  }
+
+  #cta-subheading h4 {
+    padding-top: 10%;
+  }
+}
+
+.button-main {
+  @extend .button;
+  margin-top: 30px;
+  margin-bottom: 150px;
+  background-color: $primary-color;
+}
+
+.search-bar {
+  margin: 30px 0;
+  padding: 15px;
+  }
+
+#search-background {
+  background-color: rgba(0,0,0,0.5);
+  position: absolute;
+  bottom:0;
+  width: 100%;
+}
+
+.button-search {
+  @extend .button;
+  background-color: $yellow;
+}
+
+
+//About
+
+#about {
+  background-color: #fff;
+  margin: 45px 0;
+  padding: 15px 4%;
+  text-align: center;
+}
+
+.about-title {
+  padding-bottom: 30px;
+}
+
+    
+//Campaigns
+
+#campaigns {
+  padding: 30px 0;
+  background-color: #dce0e0;
+}
+
+#campaign-listing-title { 
+  padding: 15px 0;
+  text-align: center;
+}
+
+#campaign-listing {
+  background-color: #dce0e0;
+  padding: 45px 0;
+
+    a {
+      color: inherit;
+    }
+}
+
+#more-campaign-button {
+  @extend .button;
+  background-color: $primary-color;
+
+}
+
+
+//footer
+
+footer {
+  background-color: $secondary-color;
+
+
+    .footer-menu {
+      padding: 10px 4%;
+    }
+
+    p {
+      color: #fff;
+      font-size: .90rem;
+      line-height: .90;
+    }
+
+    h6 {
+      color: #fff;
+      line-height: 2;   }
+
+    i {
+      color: #fff;
+    }
+
+    .connect {
+      text-align: center;
+    }
+
+    .copyright {
+      color: #fff;
+      font-size: .80rem;
+      padding: 30px 4%;
+      text-align: center;
+    }    
+}
+
+.connect ul li {
+  text-align: center !important;
+}
