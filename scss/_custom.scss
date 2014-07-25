@@ -6,13 +6,12 @@ $yellow: #ecd06f;
   background-image: url('../img/fund8.jpg');
   background-color: (150,150,150,.05); ;
   background-size: cover;
-  height: auto;
 }
 
 
 #nav {
-  padding-top: 2%;
-  padding-bottom: 4%;  
+  padding-top: 20px;
+  padding-bottom: 30px;  
   vertical-align: middle;
  
   p a {
@@ -45,7 +44,7 @@ $yellow: #ecd06f;
 //CTA 
 
 .cta {
-  padding: 4% 0;
+  padding: 30px 0;
   text-align: center;
 
   h1 {
@@ -64,14 +63,14 @@ $yellow: #ecd06f;
 
 .button-main {
   @extend .button;
-  margin-top: 4%;
-  margin-bottom: 80%;
+  margin-top: 30px;
+  margin-bottom: 150px;
   background-color: $primary-color;
 }
 
 .search-bar {
-  margin: 4% 0;
-  padding: 2%;
+  margin: 30px 0;
+  padding: 15px;
   }
 
 #search-background {
@@ -91,31 +90,35 @@ $yellow: #ecd06f;
 
 #about {
   background-color: #fff;
-  margin: 5% 0;
-  padding: 2% 4%;
+  margin: 45px 0;
+  padding: 15px 4%;
   text-align: center;
 }
 
 .about-title {
-  padding-bottom: 3%;
+  padding-bottom: 30px;
 }
 
     
 //Campaigns
 
 #campaigns {
-  padding: 2% 0;
+  padding: 30px 0;
   background-color: #dce0e0;
 }
 
 #campaign-listing-title { 
-  padding: 1% 0;
+  padding: 15px 0;
   text-align: center;
 }
 
 #campaign-listing {
   background-color: #dce0e0;
-  padding: 3% 0;
+  padding: 45px 0;
+
+    a {
+      color: inherit;
+    }
 }
 
 #more-campaign-button {
@@ -132,29 +135,35 @@ footer {
 
 
     .footer-menu {
-      padding: 5% 4%;
+      padding: 10px 4%;
     }
 
     p {
       color: #fff;
       font-size: .90rem;
-      line-height: .5;
+      line-height: .90;
     }
 
     h6 {
       color: #fff;
-      line-height: 2;
-    }
+      line-height: 2;   }
 
     i {
       color: #fff;
     }
 
+    .connect {
+      text-align: center;
+    }
+
     .copyright {
       color: #fff;
       font-size: .80rem;
-      padding: 5% 4%;
+      padding: 30px 4%;
       text-align: center;
     }    
 }
 
+.connect ul li {
+  text-align: center !important;
+}

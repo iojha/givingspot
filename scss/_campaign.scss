@@ -1,3 +1,5 @@
+// Nav Bar
+
 #nav-campaign {
   background-color: $primary-color;
   position: relative;
@@ -29,8 +31,35 @@
 
 }
 
-#campaign-profile {
+
+// Campaign Panel
+
+#title {
   padding: 2% 0;
+}
+
+#Campaign-info {
+  padding: 2% 0;
+}
+
+#campaign-profile {
+  padding: 3% 0;
+}
+
+#stats-summary ul li{
+  padding: 1% 0;
+
+}
+
+#button-donate {
+  @extend .button;
+  margin-top: 8%;
+  background-color: $primary-color;
+
+    h4 {
+      color: #fff;
+    }
+
 }
 
   .name {
@@ -38,7 +67,7 @@
   }
   
   .contact li {
-  padding: 2% 0;
+  padding: 1% 0;
   }
 
   .mission {
@@ -55,3 +84,38 @@
 
   }
 
+//footer
+
+footer {
+  background-color: $secondary-color;
+
+
+    .footer-menu {
+      padding: 1% 4%;
+    }
+
+    p {
+      color: #fff;
+      font-size: .90rem;
+      line-height: .90;
+    }
+
+    h6 {
+      color: #fff;
+      line-height: 2;   }
+
+    i {
+      color: #fff;
+    }
+
+    .connect {
+      text-align: center;
+    }
+
+    .copyright {
+      color: #fff;
+      font-size: .80rem;
+      padding: 2% 4%;
+      text-align: center;
+    }    
+}
