@@ -9,13 +9,13 @@ $(document).ready( function() {
                   {name: "World Childrens' Fund", organization: "World Childrens' Fund", description: "Our organization gives underserved children in South East Asia the opportunity to attend school", image: "img/kids_03.jpg", targ: "campaign_page.html"},
                   {name: "Bikes and Hikes", organization: "Bikes and Hikes Worldwide", description: "Encouraging developed nations to donate bikes to developing nations", image: "img/fund1.jpg", targ: "campaign_page.html"},
                   {name: "Edutainment", organization: "Education for Good", description: "Providing education to children in South East Asia using latest technology and entertainment", image: "img/young-girl-nepal-school-5015_15.jpg", targ: "campaign_page.html"},];
-       
+
+        
 
   var output = "<div class=\"row\">";
   var numCols = 3;
 
   $.each(campaigns, function(index, campaign) {
-
     output += "<div class=\"large-4 small-6 columns\"> <a href=\"" + campaign.targ + "\"> <img src=\"" + campaign.image +
               "\"> <div class=\"panel\"> <h5>" + campaign.name +
               "</h5> <h6 class=\"subheader\">" + campaign.organization + "</h6> </div> </a> </div> "
