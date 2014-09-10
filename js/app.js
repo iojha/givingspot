@@ -15,9 +15,10 @@ $(document).ready( function() {
   var numCols = 3;
 
   $.each(campaigns, function(index, campaign) {
-    output += "<div class=\"large-4 small-6 columns\"> <img src=\"" + campaign.image +
-              "\"> <a href=\"" + campaign.targ + "\"> <div class=\"panel\"> <h5>" + campaign.name +
-              "</h5> <h6 class=\"subheader\">" + campaign.organization + "</h6> </a> </div> </div> "
+    output += "<div class=\"large-4 small-6 columns\"> <a href=\"" + campaign.targ + "\"> <img src=\"" + campaign.image +
+              "\"> <div class=\"panel\"> <h5>" + campaign.name +
+              "</h5> <h6 class=\"subheader\">" + campaign.organization + "</h6> </div> </a> </div> "
+
 
       // close and open new row when filled
 
